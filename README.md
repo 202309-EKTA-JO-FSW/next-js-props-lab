@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.JS Lab
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The best thing about React is how React-ive it is. In this lab you will create the following image that contains the same component and use it 3 times. Obviously, since they are the same components their contents will be the same so don't worry about that unless you're going after the bonus.
+[card](card.png)
+
+## Instructions
+
+1. Create a new component called `<CardList>` that uses grid or flexbox to show the 3 cards next to each other.
+2. Create a component called `<Card>` that contains a title, description, and a button. Style the component exactly like the image. You can use classes or styles to do that.
+3. Use the `<Card>` component 3 times in the `<CardList>`
+4. BONUS: Can make some changes to the `<Card>` component so the content can be changeable? (You can search about React Props, which is what we will go over next class.)
+
+## How to run the app
 
 ```bash
-npm run dev
-# or
+yarn
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
